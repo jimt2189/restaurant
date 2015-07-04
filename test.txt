@@ -1,0 +1,25 @@
+$Recycle.Bin
+Documents and Settings
+HP
+Intel
+KOGGAMES
+MSOCache
+Neople
+PerfLogs
+Program Files
+Program Files (x86)
+ProgramData
+Recovery
+Riot Games
+SWSetup
+SYSTEM.SAV
+System Volume Information
+Users
+Windows
+boot
+bootmgr
+console.log
+hiberfil.sys
+pagefile.sys
+wallpaper
+wamp

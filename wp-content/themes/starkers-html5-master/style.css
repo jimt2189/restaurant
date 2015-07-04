@@ -1,0 +1,125 @@
+/*
+Theme Name: Starkers HTML5
+Theme URI: http://nathanstaines.com
+Description: An HTML5 version of <a href="http://elliotjaystocks.com/starkers/">Starkers</a> by <a href="http://elliotjaystocks.com/">Elliot Jay Stocks</a> which is based on Twenty Ten.
+Version: 3.2
+Author: Nathan Staines
+Author URI: http://nathanstaines.com
+Tags: starkers, html5, naked, clean, basic
+*/
+
+@import "css/reset.css";
+@import "css/layout.css";
+
+/* low resolution, 480px and below */ 
+@media only screen and (max-width:480px) { 
+
+p{ color: rgb(0,0,0); } 
+
+body { background: rgb(244,244,244); }
+
+#master { width: 95%; margin: 0 auto; border: 1px solid rgb(193,180,152); background: rgb(255,255,255); }
+
+
+header { height: 130px; background: url(http://localhost/rabbit/images/HeaderHT.png); }
+
+nav { height: 100%; background: rgb(0,0,0); text-align: center; padding: 10px 5px 0 5px; margin-bottom: 10px; }
+	nav li {display: inline; margin-left: 10px; font-size: 120%; line-height: 160%; }
+	nav li a { color: rgb(255,255,255); text-decoration: none; }
+	
+	
+#slideshow {display: none; }	
+	
+.contentbox { background: url(http://localhost/rabbit/images/ContentBoxBG.jpg); float: left; border-top: 1px solid rgb(193,180,152); border-bottom: 1px solid rgb(193,180,152); margin-bottom: 10px; padding: 10px; text-align: center; }
+	.contentbox p { font-family: verdana; font-size: 80%; line-height: 150%; text-align: left; }
+
+article { width: 95%; margin-left: 10px; }
+	.post { margin-bottom: 20px; }
+	.post h2 { font-weight: bold; font-size: 120%; margin-bottom: 5px; }
+	.post h2 a { color: rgb(189,30,44); text-decoration: none; }
+	.post p { line-height: 160%; }
+	.postmeta { font-size: 70%; margin-top: 5px; float: right; font-family: verdana; }
+	.postmeta a { color: rgb(189,30,44); }
+	
+	
+footer nav { margin-bottom: 0px; padding-bottom: 10px; }
+
+}
+
+
+
+/* medium resolution, 481px to 1023px */
+@media only screen and (min-width:481px) { 
+
+
+
+p{ color: rgb(0,0,0); } 
+
+body { background: rgb(244,244,244); }
+
+#master { width: 95%; margin: 0 auto; border: 1px solid rgb(193,180,152); background: rgb(255,255,255); }
+
+
+header { height: 130px; background: url(http://localhost/rabbit/images/HeaderHT.png); }
+
+nav { height: 100%; background: rgb(0,0,0); text-align: center; padding: 10px 5px 0 5px; margin-bottom: 20px; }
+	nav li {display: inline; margin-left: 15px; font-size: 110%; line-height: 160%; }
+	nav li a { color: rgb(255,255,255); text-decoration: none; }
+
+#slideshow { width: 90%; margin: 10px auto; }
+	#slideshow img { width: 100%; border: 1px solid rgb(193,180,152); }
+
+.contentbox { background: url(http://localhost/rabbit/images/ContentBoxBG.jpg); float: left; border-top: 1px solid rgb(193,180,152); border-bottom: 1px solid rgb(193,180,152); margin-bottom: 10px; padding: 10px; }
+	.contentbox img { float: left; margin-right: 10px; }
+	.contentbox p { font-family: verdana; font-size: 80%; line-height: 140%; margin-top: 15px; }
+
+article { width: 95%; margin-left: 10px; }
+	.post { margin-bottom: 20px; }
+	.post h2 { font-weight: bold; font-size: 120%; margin-bottom: 5px; }
+	.post h2 a { color: rgb(189,30,44); text-decoration: none; }
+	.postmeta { font-size: 70%; margin-top: 5px; float: right; font-family: verdana; }
+	.postmeta a { color: rgb(189,30,44); }
+	
+footer nav { margin-bottom: 0; padding-bottom: 10px; }
+
+
+
+}
+
+
+
+
+/* high resolution, 1024px and higher */
+@media only screen and (min-width:1024px) { 
+
+p{ color: rgb(0,0,0);}
+
+body { background: rgb(244,244,244); }
+
+#master { width: 960px; margin: 0 auto; border: 1px solid rgb(193,180,152); background: rgb(255,255,255); }
+
+
+
+header { width: 960px; height: 130px; background: url(http://localhost/rabbit/images/HeaderHT.png); }
+
+nav { width: 960px; height: 35px; background: rgb(0,0,0); text-align: center; padding: 10px 0 0 0; margin-bottom: 20px; }
+nav li { display: inline; margin-left: 10px; font-size: 105%; line-height: normal; }
+nav li a { color: rgb(255,255,255); text-decoration: none; }
+
+#slideshow { width: 840px; height: 300px; border: 1px solid rgb(193,180,152); margin: 10px auto;  }	
+	
+.contentbox { width: 300px; background: url(http://localhost/rabbit/images/ContentBoxBG.jpg); float: left; border-top: 1px solid rgb(193,180,152); border-bottom: 1px solid rgb(193,180,152); margin-bottom: 10px; padding: 10px; }	
+	.contentbox img { margin-top: 0px; margin-bottom: 10px; }
+	.contentbox p { font-family: verdana; font-size: 80%; line-height: 140%; }
+	
+article { width: 940px; margin-left: 10px; }
+	.post { margin-bottom: 20px; }
+	.post h2 { font-weight: bold; font-size: 120%; margin-bottom: 5px; }
+	.post h2 a { color: rgb(189,30,44); text-decoration: none; }
+	.postmeta { font-size: 70%; margin-top: 5px; float: right; font-family: verdana; }
+	.postmeta a { color: rgb(189,30,44); }
+	
+footer nav{ margin-bottom: 10px; font-size: 80%; font-family: verdana; }	
+	
+	
+ }
