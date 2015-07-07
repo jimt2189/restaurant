@@ -8,6 +8,7 @@ I will send you an invite in digital ocean membership.  So you can sign in.  Bes
 Please update this doc, and confirm "Yes" in the following line then check in.  That way it will confirm you understand how to use Github and git in the right way.
 
 Confirm "yes"
+testing for change1
 
 Thanks 
 
