@@ -9,8 +9,10 @@ Please update this doc, and confirm "Yes" in the following line then check in.  
 
 Confirm "yes"
 
-I am testing this for change to a branch and later compare this to master 
+--I am testing this for change to a branch and later compare this to master 
 and perform pull request to merge on github website. 
+
+--This is another update after email verification
 
 Here is a new update 
 
