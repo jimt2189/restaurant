@@ -16,7 +16,7 @@ and perform pull request to merge on github website.
 
 --This is update after seeing who is watching on github
 
-Here is a new update 
+A new update on 7/9 afternoon
 
 Thanks 
 
