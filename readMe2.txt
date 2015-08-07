@@ -2,6 +2,7 @@ BEFORE GETTING STARTED
 - Have wordpress setup locally
 - Be ready to use terminal and have Git set up ready
 
+////////////
 GETTING STARTED TO WORK ON THIS PROJECT
 
 ////////////
