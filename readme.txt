@@ -8,10 +8,16 @@ I will send you an invite in digital ocean membership.  So you can sign in.  Bes
 Please update this doc, and confirm "Yes" in the following line then check in.  That way it will confirm you understand how to use Github and git in the right way.
 
 Confirm "yes"
-testing for change1
+
+--I am testing this for change to a branch and later compare this to master 
+and perform pull request to merge on github website. 
+
+--This is another update after email verification
+
+--This is update after seeing who is watching on github
 
 A new update on 7/9 afternoon
-
+hey its me!
 Thanks 
 
 Kenneth
